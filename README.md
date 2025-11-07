@@ -1,42 +1,42 @@
-## XiaomiToolV2 [Fork](https://github.com/francescotescari/XiaoMiToolV2/compare/refactor/distribution...topminipie:XiaoMiToolV2:main)
+## XiaomiToolV2 [Fork]
 
-[<img alt="CI" src="https://github.com/topminipie/XiaoMiToolV2/actions/workflows/ci.yml/badge.svg">](https://github.com/topminipie/XiaoMiToolV2/actions/workflows/ci.yml)
+[<img alt="CI" src="https://github.com/LiohMoeller/XiaoMiToolV2/actions/workflows/ci.yml/badge.svg">](https://github.com/LiohMoeller/XiaoMiToolV2/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
 
 Source code of Xiaomi bootloader unlocking tool.
 
-Other tools to unlock bootloader Xiaomi devices - [Awesome Xiaomi Bootloader Unlock](https://github.com/topminipie/awesome-xiaomi-bootloader-unlock)
+Other tools to unlock bootloader Xiaomi devices - [Awesome Xiaomi Bootloader Unlock](https://github.com/LiohMoeller/awesome-xiaomi-bootloader-unlock)
 
 ### State of the project
   - The original XiaomiToolV2 is abandoned and it needed a small correction to make it run on linux.
 
 ### Unlock BootLoader
 
-This fork of XiaoMiTool V2 - [WORKS](https://github.com/topminipie/XiaoMiToolV2/tree/tested) (Tested on a real device - 09.12.2023)
+This fork of XiaoMiTool V2 - [WORKS](https://github.com/LiohMoeller/XiaoMiToolV2/tree/tested) (Tested on a real device - 09.12.2023)
 
-Read [wiki](https://github.com/topminipie/XiaoMiToolV2/wiki).
+Read [wiki](https://github.com/LiohMoeller/XiaoMiToolV2/wiki).
 
 ### Building and Running
 
-1. Install Java 17:
+1. Install Java 21:
 
 #### Ubuntu
 ```sh
-sudo apt install openjdk-17-jdk git
+sudo apt install openjdk-21-jdk git
 ```
 
 #### Fedora
 ```sh
-sudo dnf install java-17-openjdk-devel git
+sudo dnf install java-21-openjdk-devel git
 ```
 
 2. Download this repo:
 ```sh
-git clone https://github.com/topminipie/XiaoMiToolV2.git && cd XiaoMiToolV2
+git clone https://github.com/LiohMoeller/XiaoMiToolV2.git && cd XiaoMiToolV2
 ```
 or
 ```sh
-wget https://github.com/topminipie/XiaoMiToolV2/archive/refs/heads/main.zip && cd XiaoMiToolV2
+wget https://github.com/LiohMoeller/XiaoMiToolV2/archive/refs/heads/main.zip && cd XiaoMiToolV2
 ```
 
 3. Build:
@@ -53,7 +53,7 @@ chmod +x ./res/tools/lin/fastboot
 
 5. Ignore update notifications.
 
-6. [Unlock BootLoader](https://github.com/topminipie/XiaoMiToolV2/wiki)
+6. [Unlock BootLoader](https://github.com/LiohMoeller/XiaoMiToolV2/wiki)
 
 ## Credits
 
@@ -63,6 +63,11 @@ chmod +x ./res/tools/lin/fastboot
 
 [XiaoMiToolV2 Fork 2](https://github.com/tkapias/XiaoMiToolV2)
 
+[XiaoMiToolV2 Fork 3](https://github.com/topminipie/XiaoMiToolV2)
+
+[XiaoMiToolV2 Fork 4](https://github.com/xchacha20-poly1305/XiaoMiToolV2)
+
 [Pull Request 1](https://github.com/francescotescari/XiaoMiToolV2/pull/103)
 
 [Pull Request 2](https://github.com/francescotescari/XiaoMiToolV2/pull/98)
+
