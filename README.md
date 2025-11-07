@@ -12,8 +12,6 @@ Other tools to unlock bootloader Xiaomi devices - [Awesome Xiaomi Bootloader Unl
 
 ### Unlock BootLoader
 
-This fork of XiaoMiTool V2 - [WORKS](https://github.com/LiohMoeller/XiaoMiToolV2/tree/tested) (Tested on a real device - 09.12.2023)
-
 Read [wiki](https://github.com/LiohMoeller/XiaoMiToolV2/wiki).
 
 ### Building and Running
@@ -70,4 +68,5 @@ chmod +x ./res/tools/lin/fastboot
 [Pull Request 1](https://github.com/francescotescari/XiaoMiToolV2/pull/103)
 
 [Pull Request 2](https://github.com/francescotescari/XiaoMiToolV2/pull/98)
+
 
