@@ -8,11 +8,34 @@ Source code of Xiaomi bootloader unlocking tool.
 Other tools to unlock bootloader Xiaomi devices - [Awesome Xiaomi Bootloader Unlock](https://github.com/LiohMoeller/awesome-xiaomi-bootloader-unlock)
 
 ### State of the project
-  - The original XiaomiToolV2 is abandoned and it needed a small correction to make it run on linux.
+  - The original XiaomiToolV2 is abandoned and it needed a small correction to make it run on Linux.
 
 ### Unlock BootLoader
 
-Read [wiki](https://github.com/LiohMoeller/XiaoMiToolV2/wiki).
+Sign in to your [Xiaomi account](https://account.xiaomi.com).
+For this, go to Settings → Mi Account
+Link your phone number to your account (It's necessary)
+
+The first step is to enable OEM Unlocking and USB debugging on the Xiaomi phone.
+For this, go to Settings → About Phone → Then Tap MIUI version 7 times to enable Developer Options.
+Next go Settings → Additional settings → Developer Option.
+Then Turn on the toggle button OEM Unlocking and USB debugging options.
+
+Then Turn on your mobile data and Turn off all Wifi, Hotspot and Bluetooth.
+
+Keep in mind, you have to turn on mobile data from the same SIM from which you have created your Mi account.
+
+Now you have to Tap on Mi Unlock status and then tap on the Agree button.
+
+After that, you have to tap on “Add Account and Device“.
+
+You should receive a confirmation that the Device was added to you account.
+
+Reboot to Fastboot.
+
+With the device powered off, hold Volume Down + Power. Keep holding both buttons until the word “FASTBOOT” appears on the screen, then release. (For some devices there may be a different combination)
+
+Now you can use XiaoMiToolV2 to proceed with the unlocking.
 
 ### Building and Running
 
@@ -49,10 +72,6 @@ chmod +x ./res/tools/lin/fastboot
 ./gradlew run
 ```
 
-5. Ignore update notifications.
-
-6. [Unlock BootLoader](https://github.com/LiohMoeller/XiaoMiToolV2/wiki)
-
 ## Credits
 
 [XiaoMiToolV2 Original](https://github.com/francescotescari/XiaoMiToolV2)
@@ -68,5 +87,6 @@ chmod +x ./res/tools/lin/fastboot
 [Pull Request 1](https://github.com/francescotescari/XiaoMiToolV2/pull/103)
 
 [Pull Request 2](https://github.com/francescotescari/XiaoMiToolV2/pull/98)
+
 
 
