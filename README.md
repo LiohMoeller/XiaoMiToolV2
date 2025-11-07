@@ -10,32 +10,36 @@ Other tools to unlock bootloader Xiaomi devices - [Awesome Xiaomi Bootloader Unl
 ### State of the project
   - The original XiaomiToolV2 is abandoned and it needed a small correction to make it run on Linux.
 
-### Unlock BootLoader
+### Xiaomi Bootloader Unlock - Step-by-Step
 
-Sign in to your [Xiaomi account](https://account.xiaomi.com).
-For this, go to Settings → Mi Account
-Link your phone number to your account (It's necessary)
+1. **Sign in to your Xiaomi account.**  
+   Go to `Settings → Mi Account`  
+   Link your phone number to your account *(required)*
 
-The first step is to enable OEM Unlocking and USB debugging on the Xiaomi phone.
-For this, go to Settings → About Phone → Then Tap MIUI version 7 times to enable Developer Options.
-Next go Settings → Additional settings → Developer Option.
-Then Turn on the toggle button OEM Unlocking and USB debugging options.
+2. **Enable OEM Unlocking and USB Debugging:**  
+   - Go to `Settings → About Phone`  
+   - Tap **MIUI version** 7 times to enable Developer Options  
+   - Go to `Settings → Additional settings → Developer Options`  
+   - Turn ON the toggle for **OEM Unlocking** and **USB debugging**
 
-Then Turn on your mobile data and Turn off all Wifi, Hotspot and Bluetooth.
+3. **Prepare your device connection:**  
+   - Turn ON mobile data, and turn OFF Wi-Fi, Hotspot, and Bluetooth  
+   - Use mobile data from the SAME SIM used when creating your Mi account
 
-Keep in mind, you have to turn on mobile data from the same SIM from which you have created your Mi account.
+4. **Add Device to Unlock Status:**  
+   - Tap **Mi Unlock status**  
+   - Tap **Agree**  
+   - Tap **Add Account and Device**  
+   - Ensure your SIM has sufficient balance to avoid warnings  
+   - You should receive confirmation that your device was added successfully
 
-Now you have to Tap on Mi Unlock status and then tap on the Agree button.
+5. **Reboot to Fastboot mode:**  
+   - Power OFF the device  
+   - Hold **Volume Down + Power** until the word *FASTBOOT* appears, then release  
+   *(Note: Some devices may use a different key combination)*
 
-After that, you have to tap on “Add Account and Device“.
-
-You should receive a confirmation that the Device was added to you account.
-
-Reboot to Fastboot.
-
-With the device powered off, hold Volume Down + Power. Keep holding both buttons until the word “FASTBOOT” appears on the screen, then release. (For some devices there may be a different combination)
-
-Now you can use XiaoMiToolV2 to proceed with the unlocking.
+6. **Proceed with unlocking:**  
+   - Now you can use XiaoMiToolV2 to proceed with the unlocking.
 
 ### Building and Running
 
@@ -87,6 +91,7 @@ chmod +x ./res/tools/lin/fastboot
 [Pull Request 1](https://github.com/francescotescari/XiaoMiToolV2/pull/103)
 
 [Pull Request 2](https://github.com/francescotescari/XiaoMiToolV2/pull/98)
+
 
 
 
